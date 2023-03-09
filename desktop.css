@@ -17,6 +17,10 @@
         background-color: rgb(148, 148, 148);
     }
 
+    .material-icons{
+        display: none;
+    }
+
     #title{
         text-align: center;
         font-size: 1.335em;
@@ -27,13 +31,13 @@
     nav > p{
         display: inline-flex;
         padding: 10px 10px 9.5px;
-        background-color: rgb(87, 87, 87);
+        background-color: rgb(58, 58, 58);
         color: white;
         box-shadow: 0px -2px 2px gray;
     }
 
     nav > p:hover{
-        background-color: gray;
+        background-color: rgb(87, 87, 87);
         cursor: pointer;
     }
 

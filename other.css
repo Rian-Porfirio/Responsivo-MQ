@@ -17,6 +17,33 @@
         background-color: rgb(148, 148, 148);
     }
     
+    .material-icons{
+        display: block;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .material-icons:active{
+        background-color: white;
+        color: black;
+    }
+
+    .itens{
+        display: block;
+        background-color: rgb(58, 58, 58);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-top: 2px solid gray;
+    }
+
+    .itens:hover{
+        background-color: rgb(87, 87, 87);
+    }
+
     #title{
         text-align: center;
         font-size: 1.335em;
